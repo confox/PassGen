@@ -1,6 +1,6 @@
 #   Password Generator V1
 #
-#     Author Connor Simmons
+#     Author Turkish
 #     Date 20/07/2022
 #     Creation For SABP Service Desk Staff
 
