@@ -5,7 +5,6 @@
 #     Creation For SABP Service Desk Staff
 
 # import required module
-
 import random
 
 # Pick random number from file
