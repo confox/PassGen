@@ -6,7 +6,7 @@ block_cipher = None
 
 a = Analysis(
     ['PasswordGen.py'],
-    pathex=[],
+    pathex=['distLibsite-packages'],
     binaries=[],
     datas=[],
     hiddenimports=[],
