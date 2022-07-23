@@ -17,6 +17,8 @@ from tkinter import *
 window = Tk()
 
 # add widgets here
+lbl = Label(window, text="Test", fg='red', font=("Helvetica", 16))
+lbl.place(x=60, y=50)
 btn = Button(window, text="Generate Password", fg='blue')
 btn.place(x=80, y=100)
 window.title('Password Generator')
