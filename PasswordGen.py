@@ -12,6 +12,18 @@
 # import required module
 import random
 
+# GUI module
+from tkinter import *
+window = Tk()
+
+# add widgets here
+btn = Button(window, text="Generate Password", fg='blue')
+btn.place(x=80, y=100)
+window.title('Password Generator')
+window.geometry("300x200+10+20")
+window.mainloop()
+
+
 # Pick random number from file
 numA = random.randint(1, 9)
 numB = random.randint(1, 9)
